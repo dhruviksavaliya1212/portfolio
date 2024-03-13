@@ -413,7 +413,7 @@ body,html {
   -webkit-filter: drop-shadow(5px 5px 10px #111010);
           filter: drop-shadow(5px 5px 10px #111010);
   width: 300px;
-  background-image: url(PicsArt_02-20-08.49.42.webp);
+  background: url("PicsArt_02-20-08.49.42.webp");
   background-size: cover;
   background-position: center;
 }
