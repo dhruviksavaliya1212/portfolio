@@ -1,7 +1,3 @@
-// const scroll = new LocomotiveScroll({
-//   el: document.querySelector('#main'),
-//   smooth: true
-// });
 
 const words = ["Dhruvik Savaliya","Web Developer"];
 
