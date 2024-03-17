@@ -264,6 +264,9 @@ window.addEventListener("scroll",function scroll(){
   }
 });
 
+
+// navbar
+
 const humburger = document.querySelector("#hamburger");
 const toggleButton = document.querySelector("#hamburger");
 const dropDownMenu = document.querySelector(".dropdownmenu");
@@ -274,3 +277,38 @@ humburger.onclick = function(){
 
   toggleButton.classList = isOpen ?"ri-close-line" : "ri-align-justify"
 }
+
+// links in contact page
+
+var insta = document.querySelector("#instagram");
+insta.onclick = function(){
+  open("https://www.instagram.com/mr_savaliya_2412?igsh=OGQ5ZDc2ODk2ZA==")
+}
+
+var facebook = document.querySelector("#facebook");
+facebook.onclick = function(){
+  open("https://www.facebook.com/profile.php?id=100080691679248&mibextid=ZbWKwL")
+}
+
+var linkdin = document.querySelector("#linkdin");
+linkdin.onclick = function(){
+  open("https://www.linkedin.com/in/dhruvik-savaliya-0520642b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app")
+}
+
+var whatapp = document.querySelector("#whatsapp");
+whatsapp.onclick = function(){
+  open("https://wa.me/qr/BFG5DJY4YQRPK1")
+}
+
+// buttons
+
+var page1btn = document.querySelector("#subscribe");
+page1btn.onclick = function(){
+  alert("You are subscribed. Thank you ! ")
+}
+
+var page5btn = document.querySelector("#send");
+page5btn.onclick = function(){
+  alert(" Thank you for contact me. I'll contact you soon")
+}
+

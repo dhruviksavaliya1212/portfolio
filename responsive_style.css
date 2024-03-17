@@ -45,7 +45,7 @@
     margin-left: 2vw;
     margin-right: 2vw;
   }
-  #mailsend{
+  #form{
     gap: 10px;
     height: 100px;
     border: none;
@@ -54,13 +54,13 @@
     flex-direction: column;
 
   }
-  #mailsend input{
+  #form input{
     border: 1px solid rgba(255,255,255,0.18);
     border-radius: 10px;
     height: 55px;
   
   }
-  #mailsend button{
+  #form button{
     padding: 7px;
   }
   #cright{
@@ -446,7 +446,7 @@
     margin-left: 2vw;
     margin-right: 2vw;
   }
-  #mailsend{
+  #form{
     width: 22rem;
   }
 
